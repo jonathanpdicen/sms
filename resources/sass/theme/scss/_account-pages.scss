@@ -1,0 +1,27 @@
+/* ==============
+  Account Pages
+===================*/
+
+.wrapper-page {
+  margin: 5.5% auto;
+  max-width: 384px;
+  width: 384px;
+  position: relative;
+
+  .logo-admin {
+    font-size: 28px;
+    line-height: 70px;
+  }
+
+  h2 span {
+    color: $primary;
+  }
+
+  .form-inner-wrapper {
+    margin-top: 2.5rem;
+  }
+
+  label {
+    font-size: .75rem;
+  }
+}

@@ -1,0 +1,35 @@
+/* ==============
+  Tables
+===================*/
+
+table {
+  background-color: white;
+  border: 1px solid #ededed;
+  border-collapse: collapse;
+  border-radius: 0.75rem;
+
+  .truncated-col {
+    max-width: 300px;
+  }
+
+  .action-col {
+    width: 200px;
+  }
+}
+
+.table th {
+  padding: 16px 20px;
+  font-size: .75rem;
+  color: var(--dark-text);
+  text-transform: uppercase;
+  border: 1px solid #ededed;
+  font-weight: 600;
+}
+
+.table td {
+  padding: 16px 20px;
+}
+
+.table thead th {
+  border-bottom: 0;
+}

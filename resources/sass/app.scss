@@ -1,0 +1,55 @@
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "theme/scss/icons";
+@import "theme/scss/style";
+
+@import "components/boostrap";
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #283252;
+  background-color: #fafafa;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+.logo {
+  color: $primary;
+}
+
+.view-wrapper {
+  position: relative;
+  height: 100%;
+  // min-height: 100vh;
+  width: calc(100% - 80px);
+  padding: 0 0 60px;
+  margin-inline-start: 80px;
+  background: #fafafa;
+  transition: all .3s;
+
+  .page-content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .page-content {
+      margin-top: 150px;
+    }
+  }
+}
+
+.vr {
+  border-left: 2px solid #333;
+  height: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
